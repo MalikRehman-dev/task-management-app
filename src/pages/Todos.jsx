@@ -1,19 +1,16 @@
 import { useEffect, useState } from "react";
-
-import TodoForm from "../components/TodoForm";
-import TodoList from "../components/TodoList";
-import TodoFilters from "../components/TodoFilters";
-import Loader from "../components/Loader";
+import TodoForm from "../Components/TodoForm";
+import TodoList from "../Components/TodoList";
+import TodoFilters from "../Components/TodoFilters";
+import Loader from "../Components/Loader";
 
 import {
   getTodos,
   createTodo,
   updateTodo,
   deleteTodo,
-} from "../services/todoApi";
-
-import "../css/Todos.css";
-
+} from "../Services/todoApi";
+import "../Css/Todos.css";
 function Todos() {
   const [todos, setTodos] = useState([]);
   const [loading, setLoading] = useState(true);
