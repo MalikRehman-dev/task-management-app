@@ -1,4 +1,4 @@
-import "../css/TodoItem.css";
+import "../Css/TodoItem.css";
 
 function TodoItem({
   todo,

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../css/TodoForm.css";
+import "../Css/TodoForm.css";
 
 function TodoForm({ todo, onSubmit, onClose, loading }) {
   const [title, setTitle] = useState("");
